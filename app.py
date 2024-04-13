@@ -31,7 +31,7 @@ st.title("Movie Recommender system")
 selected_movie_name=st.selectbox('Choose your movie',(movies['title'].values))
 
 if st.button('Recommend'):
-    with st.spinner('Fetching movie posters...'):
+    with st.spinner('Fetching movie and movie posters...'):
         names, posters = recommend(selected_movie_name)
     
     col1,col2,col3=st.columns(3)
