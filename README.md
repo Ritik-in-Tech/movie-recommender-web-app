@@ -26,5 +26,12 @@ conda activate tf
 pip install -r requirements.txt
 ```
 
+5.) To run the project first you have to run all the cells in the movierecommender.ipynb file
 
+6.) After successful run of all the cells now open the terminal and run
 
+```bash
+streamlit run app.py
+```
+
+### Now you can see project is running on the localhost
